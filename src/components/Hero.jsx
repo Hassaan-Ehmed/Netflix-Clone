@@ -23,7 +23,7 @@ export default function Hero() {
 <div className='w-[100%] tablet:max-w-[80%] h-auto'>
 <form className='w-full  h-full  flex flex-col justify-center items-center gap-2 '>
   <h3 className='font-normal text-[1.10rem] tablet:text-[1.25rem] laptop:text-[1.45rem] text-center text-white '>Ready to watch? Enter your email to create or restart your membership.</h3>
-<div className='w-[100%] laptop:w-[60%]  h-auto flex flex-col LM425:flex-row justify-around items-center mt-6 gap-4'>
+<div className='w-[100%] laptop:w-[60%] h-auto flex flex-col LM425:flex-row justify-around items-center mt-6 gap-4'>
 <input type="text" className='w-[100%] tablet:w-[70%] h-[50px] text-[1.3rem] text-white border border-gray-400 focus:outline-white  rounded-md pr-3 pl-2 bg-[rgba(44,44,44,0.7)]' placeholder='Email Adress' />
 <button className='w-[60%] tablet:w-[40%] h-[50px] pr-2 pl-2 LM425:p-0  bg-[#E50914] text-white font-bold text-[1.1rem] tablet:text-[1.1rem]  flex justify-center items-center'>Get Started <GoChevronRight className='text-[1.5rem] font-bold' /></button>
 </div>
